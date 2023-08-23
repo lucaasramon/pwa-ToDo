@@ -1,0 +1,49 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .bodyClass {
+    text-align-last: center;
+    padding: 30px;
+  }
+  
+  /* Estilo global para links */
+  a {
+    color: #3490dc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #2779bd;
+  }
+  
+  /* Define o estilo de botão global */
+  .button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3490dc;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #2779bd;
+  }
+  
+  /* Define estilos de texto global */
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  
