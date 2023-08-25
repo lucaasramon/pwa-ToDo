@@ -4,7 +4,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 self.addEventListener('install', event => {
     event.waitUntil(
       caches.open('my-cache').then(cache => {
-        return cache.addAll(['/', '../components/TaskList', '../pages/manifest.json']);
+        return cache.addAll(['/', './components/TaskList', './pages/manifest.json']);
       })
     );
   });
