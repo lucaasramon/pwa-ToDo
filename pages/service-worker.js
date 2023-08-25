@@ -1,7 +1,10 @@
+import { precacheAndRoute } from 'workbox-precaching';
+
+precacheAndRoute(self.__WB_MANIFEST);
 self.addEventListener('install', event => {
     event.waitUntil(
       caches.open('my-cache').then(cache => {
-        return cache.addAll(['/', '/index.js', '/manifest.json']);
+        return cache.addAll(['/', '../components/TaskList', '../pages/manifest.json']);
       })
     );
   });
