@@ -1,7 +1,7 @@
 self.addEventListener('install', event => {
     event.waitUntil(
       caches.open('my-cache').then(cache => {
-        return cache.addAll(['/', '/index.js', '/manifest.json']); // Adicione outros arquivos que deseja em cache
+        return cache.addAll(['/', '/index.js', '/manifest.json']);
       })
     );
   });
